@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "253914670558",
+    "project_id": "wakenda-f0d68",
+    "storage_bucket": "wakenda-f0d68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253914670558:android:2e0bdcde1fea609933e94f",
+        "android_client_info": {
+          "package_name": "wakenda.calendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253914670558-g28a9fnbopdfusv5vhg3g27q343s59ed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrn58ofHzEGCJLRAEPsFDU3haj0CwscpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253914670558-g28a9fnbopdfusv5vhg3g27q343s59ed.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

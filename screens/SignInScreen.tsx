@@ -27,7 +27,7 @@ export default class SignInScreen extends React.Component<SignInProps> {
   render() {
     return (
       <View style={styles.container}>
-        <Button title="Sign In" onPress={this._signInAsync} />
+        <Button title="Connectez-vous avec Microsoft" onPress={this._signInAsync} />
       </View>
     );
   }
