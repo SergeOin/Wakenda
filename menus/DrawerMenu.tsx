@@ -21,6 +21,7 @@ import {AuthContext} from '../AuthContext';
 import {UserContext} from '../UserContext';
 import HomeScreen from '../screens/HomeScreen';
 import CalendarScreen from '../screens/CalendarScreen';
+import ExampleScreen from '../screens/ExampleScreen';
 import {AuthManager} from '../auth/AuthManager';
 import {GraphManager} from '../graph/GraphManager';
 import NewEventScreen from '../screens/NewEventScreen';
@@ -143,6 +144,13 @@ export default class DrawerMenuContent extends React.Component<DrawerMenuProps> 
               name="NewEvent"
               component={NewEventScreen}
               options={{drawerLabel: 'New event'}}
+            />
+          )}
+          {userLoaded && (
+            <Drawer.Screen
+              name="ExampleCalendar"
+              component={ExampleScreen}
+              options={{drawerLabel: 'ExampleCalendar'}}
             />
           )}
         </Drawer.Navigator>
